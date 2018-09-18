@@ -17,12 +17,7 @@ public class Student {
         email = em;
         this.group = "INT22041";
     }
-     Student(String n, String sid, String em,String gr) {
-        name = n;
-        id = sid;
-        email = em;
-        group = gr;
-    }
+    
 
     /**
      * Constructor 3
