@@ -46,13 +46,10 @@ public class Fraction {
         
         return this;
     }
-    public boolean equals(Fraction obj)
+     public boolean equals(Object obj)
     {
-        int a = (this.numerator * obj.denominator) - (obj.numerator * this.denominator);         
-        if(a == 0)
-        {
-            return true;
-        } 
-        return false;
+       Fraction data = (Fraction) obj;
+       return this.numerator * data.denominator == data.numerator * this.denominator ;    
+     
     }
 }
